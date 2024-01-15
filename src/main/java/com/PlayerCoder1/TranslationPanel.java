@@ -19,7 +19,7 @@ public class TranslationPanel extends PluginPanel {
         setBackground(new Color(30, 30, 30));
 
 
-        languageComboBox = new JComboBox<>(new String[]{"ES", "FR", "IT", "NL"});
+        languageComboBox = new JComboBox<>(new String[]{"ES", "FR", "IT", "NL, pt-BR"});
         languageComboBox.addActionListener(e -> {
 
             String selectedLanguage = (String) languageComboBox.getSelectedItem();
